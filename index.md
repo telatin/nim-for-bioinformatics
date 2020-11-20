@@ -2,95 +2,53 @@
 layout: default
 title: Home
 nav_order: 1
-description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
+description: "Nim for Bioinformatics"
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Nim for Bioinformatics
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[View it on GitHub](https://github.com/telatin/nim-for-bioinformatics){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## Getting started
+## What is Nim?
 
-### Dependencies
+From the [website](https://nim-lang.org):
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+>Efficient, expressive, elegant – Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.
 
-### Quick start: Use as a GitHub Pages remote theme
+A different way of seeing this is: _Nim is a compiled language that can be as fast as C, with a syntax that can be as intuitive as Python_.
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+### Interesting features
 
-### Local installation: Use the gem-based theme
+- It's a **compiled language** that can produce fast programs
+  - Sometimes it will be really **convenient to distribute** a binary rather than a script that will rely on several dependencies
+- The syntax is Python-like and will look familiar for a lot of bioinformaticians
+- It already has a niche in web applications (with a framework called Jester)
+  - It can be compiled to javascript, so you can have backend and frontend homogeneously coded
+- Good support of metaprogramming, that allows to create domain specific languages
+- **C libraries** can be easily wrapped and utilized in Nim programs
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+There are links to bioinformatics projects in Nim in a [separate page](bibliography).
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+## How does this book work?
 
-### Configure Just the Docs
+This document aims at being a gentle but concise introduction to nim for bioinformaticians. The assumptions are:
+- You already are very familiar with Linux and the command line (macOS terminal is equally supported)
+- You have some scripting  knowledge. Knowing some Python is a very good way of starting your journey to Nim, but any other programming language can do the trick
+- You know bioinformatic file formats and are familiar with Next Generation Sequencing (that happens to require a lot of high throughput processing of quasi-garbage files)
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+There are [excellent tutorials](resources), so this book focuses on complete minimal examples for each topic presented.
 
----
+## Can Nim be my first programming language?
 
-## About the project
-
-Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](http://patrickmarsceill.com).
-
-### License
-
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
-
-### Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
-
-#### Thank you to the contributors of Just the Docs!
-
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
-
-### Code of Conduct
-
-Just the Docs is committed to fostering a welcoming community.
-
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
+While it's feasible to learn Nim without an extensive knowledge of programming, if you never wrote any kind of program or script I would recommend to start with something different. A good choice for most of the bioinformatics needs is Python.
+If you get stuck you are more likely to find a solution to your problem if you adopt a popular programming language (like Python or Perl), and if you need to perform some common tasks (like parsing a GenBank file) you will find robust libraries for Perl and Python, but you are un likely to find a heavily tested and adopted solution for Nim, at the moment.
+I think Nim has concrete possibilities to catch up quickly (for example, it's relatively straighforward to "adapt" C/C++ libraries to be used from Nim).
+It's also worth remembering that nowaday you probably don't need to program yourself, as there is plenty of bioinformatics packages addressing a wide variety of needs.
