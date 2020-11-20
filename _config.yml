@@ -16,7 +16,7 @@
 title: Nim for Bioinformatics
 description: Some notes on Nim programming for Bioinformatics
 baseurl: "/nim-for-bioinformatics" # the subpath of your site, e.g. /blog
-url: "https://telatin.github.io/nim-for-bioinformatics" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://telatin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #remote_theme: pmarsceill/just-the-docs
 
 permalink: pretty
