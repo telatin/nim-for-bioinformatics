@@ -9,11 +9,13 @@ permalink: /
 # Nim for Bioinformatics
 {: .fs-9 }
 
-Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+Nim is a compiled language with a Python-like syntax.
+Fast and easy to share binaries, an easy to learn language.
+
 {: .fs-6 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View it on GitHub](https://github.com/telatin/nim-for-bioinformatics){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Start reading](#what-is-nim){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Script on GitHub](https://github.com/telatin/nim-stuff){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
