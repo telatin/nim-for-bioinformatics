@@ -15,6 +15,8 @@ nav_order: 2
 {:toc}
 
 ---
+# Variables
+
 
 ## Indentation
 Nim has a Python like code block structure, that means that we will use indentation to specify which statements are nested, but it's more stringent in **requiring spaces** and disallowing tabs.
