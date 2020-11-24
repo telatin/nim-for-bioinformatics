@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learning Resources
-nav_order: 10
+nav_order: 99
 ---
 
 # Navigation Structure
