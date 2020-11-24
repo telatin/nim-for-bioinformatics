@@ -118,12 +118,12 @@ let
   progVer = "0.1.0"
 ```
 
-We will see more about [strings]({{ site.baseurl }}{% link docs/language-basics/variables.md %}) later,
+We will see more about [strings]({{ site.baseurl }}{% link docs/language-basics/4-strings.md %}) later,
 as well as more complex data structures (
-[arrays and sequences]({{ site.baseurl }}{% link docs/language-basics/variables.md %}) and
-[tables]({{ site.baseurl }}{% link docs/language-basics/variables.md %})
+[arrays and sequences]({{ site.baseurl }}{% link docs/language-basics/5-arrays-sequences.md %}) and
+[tables]({{ site.baseurl }}{% link docs/language-basics/7-tables.md %})
 ),
 but first it's worth introducing some other basics concepts that will be very
 easy to pick coming from any other programming language:
-[procedures]({{ site.baseurl }}{% link docs/language-basics/variables.md %}) (functions) and
-[control flow]({{ site.baseurl }}{% link docs/language-basics/variables.md %}) (if, for...).
+[procedures]({{ site.baseurl }}{% link docs/language-basics/2-procedures.md %}) (functions) and
+[control flow]({{ site.baseurl }}{% link docs/language-basics/3-control-flow.md %}) (if, for...).
