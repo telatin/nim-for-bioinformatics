@@ -37,7 +37,7 @@ A different way of seeing this is: _Nim is a compiled language that can be as fa
 - Good support of metaprogramming, that allows to create domain specific languages
 - **C libraries** can be easily wrapped and utilized in Nim programs
 
-There are links to bioinformatics projects in Nim in a [separate page](bibliography).
+There are links to bioinformatics projects in Nim in a [separate page]({{ site.baseurl }}{% link docs/resources.md %}).
 
 ## How does this book work?
 
