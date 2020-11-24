@@ -5,7 +5,7 @@ parent: Language basics
 nav_order: 4
 ---
 
-# Buttons
+# Control flow
 {: .no_toc }
 
 ## Table of contents
@@ -15,8 +15,6 @@ nav_order: 4
 {:toc}
 
 ---
-
-# Control flow
 
 This page briefly present the syntax for common control-flow patterns.
 Some more details can be presented in the worked examples.

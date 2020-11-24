@@ -5,7 +5,7 @@ parent: Language basics
 nav_order: 3
 ---
 
-# Buttons
+# Procedures (functions)
 {: .no_toc }
 
 ## Table of contents
@@ -15,8 +15,6 @@ nav_order: 3
 {:toc}
 
 ---
-
-# Procedures (functions)
 
 What Python calls functions (and Perl subroutines) is called **procedure** in Nim.
 A function will process some input parameters and will eventually return some output.
@@ -51,7 +49,7 @@ echo addPolyA("CAGATA", 20)
 
 ```
 
-##Discarding the result
+## Discarding the result
 
 If your procedure is defined to produce some output, but you don't make use of it,
 this will result in an error.
@@ -67,5 +65,15 @@ proc `+`(a, b: string): string =
 echo "Hello," + "world!"
 ```
 
-Generics
-Generic functions (similar to C++ templates) will allow to define operators for specific types (mainly custom):
+## Generics
+Generic functions (similar to C++ templates)
+will allow to define operators for specific types (mainly custom):
+
+```nim
+# In nim you concatenate strings with "&",
+# but you can define that "+" is good too. In this case we add a space between.
+proc `+`(a, b: string): string =
+ a & " " & b
+
+echo "Hello," + "world!"
+```

@@ -5,7 +5,7 @@ parent: Language basics
 nav_order: 5
 ---
 
-# Buttons
+# Strings
 {: .no_toc }
 
 ## Table of contents
@@ -15,8 +15,6 @@ nav_order: 5
 {:toc}
 
 ---
-
-# Strings
 
 Being strings used a lot in bioinformatics, let's see some more details on how to declare and use them.
 

@@ -5,7 +5,7 @@ parent: Language basics
 nav_order: 6
 ---
 
-# Buttons
+# Arrays and Sequences
 {: .no_toc }
 
 ## Table of contents
