@@ -8,6 +8,8 @@ permalink: /docs/language-basics
 
 # Language basics
 
-To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed.
+A quick tour on the language basics.
+[Nim tutorials]({{ site.baseurl }}{% link docs/resources.md %} are greatly recommended, and
+this section is mainly intended to provide small examples.
 
 {: .fs-6 .fw-300 }
