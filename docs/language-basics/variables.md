@@ -19,7 +19,7 @@ nav_order: 2
 ## Indentation
 Nim has a Python like code block structure, that means that we will use indentation to specify which statements are nested, but it's more stringent in **requiring spaces** and disallowing tabs.
 
-```python
+```nim
 #[
   you can put multiline comments between
   hash plus square brackets
@@ -36,13 +36,13 @@ else:
 ## Basic types
 In the intentation example we introduced our first variable, called line, that is a string. These are the basic types in Nim that are automatically imported:
 
-| Type           | Description    | Example    |
-+----------------+----------------+------------+
-| int            | Integer numbers | `var threads = 8`  |
-| float          | Numbers with a decimal point  | `var quasiPi = 3.15`  |
-| char |  A single ASCII character   | `var fastqHead = '@'` |
-| string  | A string of text (multiple chars)  | `var msg = "Hello"`  |
-| bool    | True or False                      | `var debug = false`  |
+| Type        | Description                        | Example               |
+|:------------|:-----------------------------------|:----------------------|
+| **int**     | Integer numbers                    | `var threads = 8`     |
+| **float**   | Numbers with a decimal point       | `var quasiPi = 3.15`  |
+| **char**    | A single ASCII character           | `var fastqHead = '@'` |
+| **string**  | A string of text (multiple chars)  | `var msg = "Hello"`   |
+| **bool**    | True or False                      | `var debug = false`   |
 
 There are more [primitive types](https://nim-by-example.github.io/primitives/), but these are the easiest to use.
 
@@ -80,7 +80,7 @@ to be callable as `idString`. Even if it was declared in "snake  style" it can b
 Variable as very common in any scripting language, but their immutable siblings are less known:
 
 | Type           | Keyword    |  
-+----------------+----------------+
+|:---------------|:-----------|
 | Variable (it's value can change)            | **var** |
 | Immutable variable (cannot change)          | **let** |
 | Constant (cannot change and must be computed at compile time) | **const** |
