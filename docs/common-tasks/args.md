@@ -23,10 +23,15 @@ and here I'll show two that can be interesting:
  - **cligen**, that converts your procedure's expected parameters in the program's documentation (useful for quick prototyping).
  - **docopt**, that allows you to write the documentation and will parse it to retreive the command line parameters you need (available also for Python and other programming languages, see http://docopt.org/).
 
- ## parseopt
+## parseopt (standard library)
 
-The standard library provides a very basic options parser via optparse. It's quite a basic library, so I'll just place an example here that can be used to play with parameters.
-Its main limitation is only supporting the `--key=value` syntax and not the `--key valueone`.
+The standard library provides a very basic options parser: _parseopt_.
+It's quite a basic library, so I'll just place an example here. I personally
+consider the user interface (the _command line interface_, in this case) to
+be a critical aspect of your programs, so I would recommend using more sophisticated
+libraries, but being installed by default it's worth knowing that it exists.
+
+The main limitation of _parseopt_ is that it only supports the `--key=value` syntax and not the `--key valueone`.
 
 ```nim
 import parseopt
@@ -107,11 +112,13 @@ when isMainModule:
 ## docopt
 
 
-If you never used a docopt inspired library, I recommend you have a look at their
+If you never used a _docopt_ inspired library (yes, there's a Python docopt too),
+I recommend you have a look at their brilliant
 [introductory video](https://www.youtube.com/watch?v=pXhcPJK5cMc#action=share) first.
 The documentation is available at their [GitHub repository](https://github.com/docopt/docopt.nim)
 and of course you
 first need to install the library with `nimble install docopt` being a non standard library.
+
 Reading the documentation is the best way to have a look at all the features,
 and here I report a simple example:
 
