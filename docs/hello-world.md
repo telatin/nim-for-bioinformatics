@@ -4,6 +4,8 @@ title: Hello World
 nav_order: 3
 ---
 
+# Hello World
+
 If you ever downloaded a source of a program written in C or C++ and compiled it, you'll know that you'll need to compile it before running it.
 
 Nim works in a peculiar way: the `.nim` source files are compiled to C files, that are then compiled in machine code by a common C compiler (gcc or clang).
