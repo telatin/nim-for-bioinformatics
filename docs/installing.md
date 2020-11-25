@@ -4,11 +4,13 @@ title: Installing Nim
 nav_order: 2
 ---
 
-# Configuration
+# Installing Nim
 {: .no_toc }
 
+Nim is rapidly evolving and it can be useful to have the possibility to manage multiple
+versions of the compiler. The _nimchoose_ package allows this, and it's my
+recommended way ov getting nim up and running.
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -86,4 +88,4 @@ xcode-select --install
 ```
 
 to install the compiler (clang) and command line tools, then you can use either
-**nimchoose** or **conda**.
+**nimchoose** (recommended) or **conda**, as described above.
