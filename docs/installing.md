@@ -8,8 +8,9 @@ nav_order: 2
 {: .no_toc }
 
 Nim is rapidly evolving and it can be useful to have the possibility to manage multiple
-versions of the compiler. The _nimchoose_ package allows this, and it's my
-recommended way ov getting nim up and running.
+versions of the compiler.
+The _nimchoose_ package allows this, and it's my
+recommended way of getting _nim_ up and running.
 
 {: .fs-6 .fw-300 }
 
@@ -24,8 +25,8 @@ recommended way ov getting nim up and running.
 ## Linux
 
 A tool called **choosenim** is my recommended choice:
-is not only an easy way to install nim but also a tool to manage multiple installations
-(can be useful in the future, if you'll start developing serious projects :).
+is not only an easy way to install nim, but also a tool to manage multiple installations
+(which can be useful in the future, if you'll start developing serious projects :).
 Since most bioinformatics is supported by the **Miniconda package manager**, I also mention that installation as a reasonable way of getting an updated version.
 
 :warning: Installing from repositories (like `apt install nim`)
