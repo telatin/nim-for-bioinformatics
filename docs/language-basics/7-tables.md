@@ -40,7 +40,7 @@ cuttingPosition["HpaI"] = 3
 A table will not keep its item ordered (unlike arrays and sequences), but if for some reasons the insertion order matters, ordered tables are the solution. Instead of using `Table[A, B]` type, you will use the `OrderedTable[A, B]` type.
 
 ### Count tables
-A CountTable initialize a counter for each key, that can be incremented by 1 or another integer:
+A CountTable initialise a counter for each key, that can be incremented by 1 or another integer:
 
 ```nim
 var
