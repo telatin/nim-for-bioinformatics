@@ -48,7 +48,7 @@ Some important libraries of the standard library are:
 - os
 - osproc
 - times
-- asyncfile
+- asyncfile (asynchronous file reading and writing using asyncdispatch)
 
 ## Parsers
 - parseopt (this is the bundled module for parsing command line arguments, but there are several alternatives)

@@ -142,7 +142,9 @@ Options:
 """
 
 proc main() =
+  # This is needed to parse the docstring into the "args" object
   let args = docopt(doc, version = "1.0")
+
   if args["status"]:
     echo "So you want to know the status! OK!"
   if args["list"]:
